@@ -1,21 +1,22 @@
 
-
-body{
-    background: linear-gradient(to bottom, #ffcc00, #ff6600);
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
 }
 
-.navbar {
-    padding: 10px;
+hr{
+    border: none;
+    border-top: 2px solid black;
 }
 
 .nav-content {
     display: flex;
-    align-items: center; /* Memusatkan konten secara vertikal */
-    
+    align-items: center; 
 }
 
 .nav-content-left {
-    flex: 1; /* Bagian kiri mengambil sebanyak ruang yang tersedia */
+    flex: 1; 
 }
 
 .nav-content-right {
@@ -25,27 +26,19 @@ body{
     padding-right: 40px;
 }
 
-.about-me, .contact{
+
+.about-me, .contact {
     padding: 1px 20px 1px 15px;
     border: 2px black solid;
     border-radius: 20%;
     background-color: antiquewhite;
+    margin-left: 10px;
 }
 
-.web-bobi{
-    padding-left: 20px;
+.web-bobi {
+    padding-left: 25px;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-.about-me, .contact {
-    margin-left: 10px; /* Jarak antara About dan Contact */
-}
-
-hr{
-    border: none; 
-    border-top: 5px solid black; 
 }
 
 .header{
@@ -55,66 +48,53 @@ hr{
     align-items: center;
 }
 
-.foto-bobi {
-    flex: 1;
+.header-text {
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 26px;
 }
 
-.header-text{
-    flex: 1; /* Bagian kanan mengambil sebanyak ruang yang tersedia */
-    display: flex;
-    justify-content: flex-end; /* Konten kanan diletakkan di sebelah kanan */
-    padding-left: 100px;
-    padding-right: 40px;
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 50;
-    text-align: justify;
+.foto-bobi {
+    width: 350px;
+    border-radius: 50%;
 }
 
 .main {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin: 20px;
-  }
-  
-  .main > div {
-    margin: 10px;
     padding: 20px;
-    border-radius: 5px;
-    flex: 1;
-    max-width: 400px;
-  }
-  
-  .skill {
-    font-size: 30px;
-    margin-bottom: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  
-  .list-group {
-    list-style-type: 1;
-  }
-  
-  .list-group-item {
-    padding: 8px 0;
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  
-  .list-group-item:not(:last-child) {
-    margin-bottom: 5px;
-  }
-
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin: 20px;
 }
 
-.text-footer{
-    font-size: 12px;
+.skill {
+    margin-top: 0;
+    color: #333;
+}
+
+.isi-hardSkill, .isi-softSkill {
+    margin: 0;
+    padding: 0;
+}
+
+.list-group {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-group-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.text-footer {
+    margin: 0;
+    font-size: 20px;
 }
