@@ -1,7 +1,40 @@
-.navbar{
-    padding: 100px;
+.navbar {
+    padding: 10px;
     background-color: antiquewhite;
     border: 2px black solid;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center; /* Memusatkan konten secara vertikal */
+}
+
+.nav-content-left {
+    flex: 1; /* Bagian kiri mengambil sebanyak ruang yang tersedia */
+}
+
+.nav-content-right {
+    flex: 1; /* Bagian kanan mengambil sebanyak ruang yang tersedia */
+    display: flex;
+    justify-content: flex-end; /* Konten kanan diletakkan di sebelah kanan */
+    padding-right: 40px;
+}
+
+.about-me, .contact{
+    padding: 5px 20px 5px 15px;
+    border: 2px black solid;
+    border-radius: 20%;
+}
+
+.web-bobi{
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.about-me, .contact {
+    margin-left: 10px; /* Jarak antara About dan Contact */
 }
 
 .header{
