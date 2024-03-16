@@ -1,3 +1,5 @@
+
+
 body{
     background: linear-gradient(to bottom, #ffcc00, #ff6600);
 }
@@ -70,13 +72,49 @@ hr{
 }
 
 .main {
-    padding: 100px;
-    background-color: aqua;
-    border: 2px black solid;
-}
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .main > div {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .skill {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .list-group {
+    list-style-type: 1;
+  }
+  
+  .list-group-item {
+    padding: 8px 0;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .list-group-item:not(:last-child) {
+    margin-bottom: 5px;
+  }
 
 .footer{
-    padding: 100px;
-    background-color: beige;
-    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.text-footer{
+    font-size: 12px;
 }
