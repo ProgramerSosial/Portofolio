@@ -1,0 +1,23 @@
+.navbar{
+    padding: 100px;
+    background-color: antiquewhite;
+    border: 2px black solid;
+}
+
+.header{
+    padding: 100px;
+    background-color: aquamarine;
+    border: 2px black solid;
+}
+
+.main {
+    padding: 100px;
+    background-color: aqua;
+    border: 2px black solid;
+}
+
+.footer{
+    padding: 100px;
+    background-color: beige;
+    border: 2px black solid;
+}
