@@ -1,12 +1,15 @@
+body{
+    background: linear-gradient(to bottom, #ffcc00, #ff6600);
+}
+
 .navbar {
     padding: 10px;
-    background-color: antiquewhite;
-    border: 2px black solid;
 }
 
 .nav-content {
     display: flex;
     align-items: center; /* Memusatkan konten secara vertikal */
+    
 }
 
 .nav-content-left {
@@ -21,9 +24,10 @@
 }
 
 .about-me, .contact{
-    padding: 5px 20px 5px 15px;
+    padding: 1px 20px 1px 15px;
     border: 2px black solid;
     border-radius: 20%;
+    background-color: antiquewhite;
 }
 
 .web-bobi{
@@ -37,10 +41,32 @@
     margin-left: 10px; /* Jarak antara About dan Contact */
 }
 
+hr{
+    border: none; 
+    border-top: 5px solid black; 
+}
+
 .header{
-    padding: 100px;
-    background-color: aquamarine;
-    border: 2px black solid;
+    padding: 10px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.foto-bobi {
+    flex: 1;
+}
+
+.header-text{
+    flex: 1; /* Bagian kanan mengambil sebanyak ruang yang tersedia */
+    display: flex;
+    justify-content: flex-end; /* Konten kanan diletakkan di sebelah kanan */
+    padding-left: 100px;
+    padding-right: 40px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+    text-align: justify;
 }
 
 .main {
